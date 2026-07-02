@@ -1,0 +1,10 @@
+### Yeni müşteri ekle
+POST http://localhost:8080/api/customers
+Content-Type: application/json
+
+{
+  "name": "Edanur Aysan",
+  "email": "eda@test.com",
+  "phone": "05555555555",
+  "city": "Istanbul"
+}
